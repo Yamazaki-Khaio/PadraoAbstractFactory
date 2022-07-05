@@ -1,3 +1,12 @@
+package AbstractFactoryComUso;
+
+import AbstractFactorySemUso.Cor;
+import AbstractFactorySemUso.Marrom;
+import AbstractFactorySemUso.Preto;
+import AbstractFactorySemUso.Branco;
+
+
+
 public class CorFactory implements AbstractFactory<Cor>{
 
     @Override
