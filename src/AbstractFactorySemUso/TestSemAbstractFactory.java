@@ -3,12 +3,13 @@ package AbstractFactorySemUso;
 public class TestSemAbstractFactory {
 	
     public static void main(String[] args) {
-    	Cachorro cachorro = new Cachorro();
+    	Cachorro gato = new Gato();
+	Preto preto = new Preto();
     	
     
 
 
-        String resultado = String.format("Um %s e  faz %s", cachorro.getAnimal(), cachorro.fazSom());
+        String resultado = String.format("Um %s da cor %s e  faz %s", cachorro.getAnimal(), preto.getCor(), cachorro.fazSom());
 
         System.out.println(resultado);
     }
