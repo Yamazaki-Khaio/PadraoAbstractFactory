@@ -1,6 +1,7 @@
 package AbstractFactoryComUso;
 
 import AbstractFactorySemUso.Animal;
+import AbstractFactorySemUso.Cor;
 
 public class TestComAbstractFactory {
 	
