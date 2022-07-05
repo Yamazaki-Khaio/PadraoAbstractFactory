@@ -10,11 +10,15 @@ public class TestComAbstractFactory {
         
         abstractFactory = FactoryProvider.getFactory("Animal");
         Animal animal = abstractFactory.criar("Cachorro");
+	
+	abstractFactory = FactoryProvider.getFactory("Cor");
+        Cor cor = (Cor) abstractFactory.criar("Branco");
 
-
-        String resultado = String.format("Um %s e  faz %s", animal.getAnimal(), animal.fazSom());
+        String resultado = String.format("Um %s de cor %s faz %s", animal.getAnimal(), cor.getCor(), animal.fazSom());
 
         System.out.println(resultado);
+
+      
     }
 
 }
