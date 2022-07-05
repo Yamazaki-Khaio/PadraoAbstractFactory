@@ -1,7 +1,6 @@
 package AbstractFactoryComUso;
 
 import AbstractFactorySemUso.Cor;
-import AbstractFactorySemUso.Marrom;
 import AbstractFactorySemUso.Preto;
 import AbstractFactorySemUso.Branco;
 
